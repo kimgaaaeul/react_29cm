@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding-top: 20px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.inner {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  border: 1px solid green;
+}
+.banner_section {
+  width: 44%;
+}
+.feed_section {
+  width: 56%;
+}
+.ui_feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.feed_item {
+  width: 50%;
+}
+img {
+  max-width: 100%;
+}

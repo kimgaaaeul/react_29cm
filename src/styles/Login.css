@@ -1,0 +1,21 @@
+.login-area {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+.login-area h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #000;
+  margin-bottom: 30px;
+}
+.form-control {
+  padding: 15px !important;
+}
+#loginbtn {
+  width: 500px;
+  padding: 25px !important;
+}
+

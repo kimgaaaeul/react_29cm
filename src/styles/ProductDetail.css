@@ -1,0 +1,213 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl  {
+  max-width: 100%;
+  max-height: 100%;
+}
+.product_container {
+  max-width: 1300px;
+  min-width: 900px;
+  padding: 40px 50px 0;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.brand_sec {
+  display: flex;
+  gap: 20px;
+}
+.brand_img img {
+  width: 74px;
+  height: 74px;
+}
+.brand_info {
+  display: flex;
+  flex-direction: column;
+}
+.brand_info a {
+  font-weight: bold;
+}
+.brand_info p {
+  font-size: 13px;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.brand_info button {
+  width: 100px;
+  font-size: 11px;
+  padding: 3px 9px;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  background-color: #fff;
+  margin-top: -10px;
+}
+.product_detail_sec {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+}
+.product_img {
+  width: 530px;
+}
+.product_info {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  border: 1px solid #000;
+  margin-bottom: 30px;
+}
+.product_title {
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.product_before_price {
+  color: #a3a3a3;
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: bold;
+}
+.price_coupon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+.product_sale {
+  color: orangered;
+  font-weight: bold;
+  font-size: 22px;
+  margin-right: 5px;
+}
+.product_sale_price {
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.product_sale_price .monetary_unit {
+  position: relative;
+  font-style: normal;
+  margin-left: 2px;
+  font-size: 16px;
+  bottom: 1px;
+}
+.coupon {
+  padding: 6px 14px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-size: 11px;
+  font-weight: bold;
+}
+.download_coupon {
+  margin-left: 10px;
+}
+
+.earned_point {
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.membership_price {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.possible_price {
+  font-size: 12px;
+  font-weight: bold;
+  width: 140px;
+}
+.membership_sale_price span:nth-child(1) {
+  font-size: 15px;
+  font-weight: bold;
+  color: #8d8d8d;
+
+}
+.membership_sale_price span:nth-child(2) {
+  font-weight: bold;
+  margin-left: 8px;
+}
+.membership_sale_price .monetary_unit {
+  position: relative;
+  font-style: normal;
+  font-size: 12px;
+  bottom: 1px;
+  margin-right: 10px;
+}
+.delivery_content {
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+.delivery_content h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+table {
+  height: 100px;
+}
+th {
+  width: 105px;
+  font-size: 13px;
+  font-weight: 400;
+}
+td {
+  font-size: 13px;
+}
+td > span {
+  color: blue;
+}
+#price_desc_down {
+  border: none;
+  background: none;
+}
+#dropdown-basic {
+  border: 1px solid rgb(212, 212, 212);
+  display: block;
+  width: 100%;
+  outline: none;
+  height: 36px;
+  padding: 0px 30px 0px 14px;
+  font-size: 13px;
+  font-weight: bold;
+  background: transparent;
+  color: rgb(48, 48, 51);
+  cursor: pointer;
+  margin-top: 20px;
+}
+#dropdown_size {
+  width: 100%;
+}
+.btn-side {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+#cartBtn {
+  width: 49%;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-right: 10px;
+  cursor: grab;
+  font-size: 15px;
+  font-weight: bold;
+}
+#buyBtn {
+  width: 49%;
+  height: 50px;
+  border: 1px solid #ccc;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: grab;
+}
+

@@ -1,0 +1,53 @@
+.ModalBackdrop {
+  z-index: 1; 
+  position: fixed;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+}
+
+.DownloadAll_ModalContainer {
+  border: 1px solid ridge;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px 20px;
+    width: 380px;
+    height: 250px;
+    display: flex; /* 수직 정렬을 위해 flex 컨테이너로 설정 */
+    justify-content: center; /* 수직 가운데 정렬 */
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 50px 50px 80px 0px;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    transition: all 100ms ease-in 0s;
+    /* z-index: 99999; */
+}
+.DownloadAll_desc {
+  display: flex;
+  flex-direction: column;
+}
+.DownloadAll_desc h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.DownloadAll_desc span {
+  font-size: 15px;
+}
+.closeDownloadAllModal_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 170px;
+  padding: 10px 25px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}

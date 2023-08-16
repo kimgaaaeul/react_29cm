@@ -1,0 +1,59 @@
+.ModalBackdrop {
+  z-index: 1; 
+  position: fixed;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  top : 0;
+  left : 0;
+  right : 0;
+  bottom : 0;
+}
+
+.cart_ModalContainer {
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 50px 40px 40px;
+    min-width: 300px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.5) 20px 20px 80px 0px;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+    transition: all 100ms ease-in 0s;
+}
+/* .ModalBtn {
+  background-color: #ccc;
+  text-decoration: none;
+  border: none;
+  padding: 20px;
+  color: white;
+  border-radius: 30px;
+  cursor: grab;
+} */
+
+.cart_ExitBtn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px 15px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  color: #111;
+}
+.cart_modalView {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cart_modalView a {
+  text-decoration: none;
+  border: 1px solid rgb(212, 212, 212);
+  padding: 5px 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: rgb(93, 93, 93);
+  line-height: 40px;
+}

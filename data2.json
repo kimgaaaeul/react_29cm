@@ -1,0 +1,115 @@
+{
+  "news": [
+    {
+      "id":0,
+      "category": "NEW PRODCUCT",
+      "sale_percent": "~30%",
+      "sale": "단독 할인",
+      "title": "매일을 함께 할 파자마",
+      "script":"편안한 하루를 위한 완벽한 파자마를 소개합니다. 조스라운지의 새로운 아이템부터 29CM에서만 만날 수 있는 단독상품까지 놓치지 마세요.",
+      "date": "8.8 Tue - 8.13 Sun",
+      "img": "../img/banner_0.jpg",
+      "brand_en": "Jo'S LOUNGE",
+      "brand_ko":"조스라운지",
+      "brand_desc":"좋은 옷의 기준은 서로 다르지만, 조스라운지는 '펀하게 입는 예쁜 옷' 이라는 단순한 목표를 향합니다. 2003년부터 라운지웨어를 선보이는 아틀리에 조스라운지의 편안한 일상을 함께하세요."
+      
+    },
+    {
+      "id":1,
+      "category": "BRAND_SALE",
+      "sale_percent": "~30%",
+      "sale": "단독 할인",
+      "title": "오직 3일 동안만",
+      "script":"여름에 일상이 되는 물놀이를 위한 코랄리크의 타임특가 소식을 전해드려요. 단 3일동안만 진행되는 선물같은 기회를 놓치지 마세요.",
+      "date": "8.7 Mon - 8.8 Wed",
+      "img": "../img/banner_1.jpg",
+      "brand_en": "CORALIQUE",
+      "brand_ko":"코랄리크",
+      "brand_desc":"CORALIQUE(코랄리크)는 감각적인 컬러와 다양한 스타일링으로, 여유로운 해변가의 아름다운 순간을 선사하는 스윔 & 리조트웨어 브랜드입니다."
+
+    },
+    {
+      "id":2,
+      "category": "BRAND_SALE",
+      "sale_percent": "~50%",
+      "sale": "단독 할인",
+      "title": "네이비카운티 클리어런스",
+      "script":"편안함 속 자유로움을 담은 핏과 디테일이 돋보이는 네이비 카운티 상품을 할인기간에 만나보세요. 시그니처 제품을 제외한 전 상품의 할인 혜택을 받아보실 수 있습니다. 단독 ~ 50%",
+      "date": "8.1 Tue - 8.15 Tue",
+      "img": "../img/banner_2.jpg",
+      "brand_en": "NAVY COUNTY",
+      "brand_ko":"네이비 카운티",
+      "brand_desc":"네이비 카운티는 자신의 싦을 열정적으로 살아내는 여성들을 위한 라이프 스타일 웨어를 제안합니다. 나일론 저제웨어를 기반으로 오래도록 언제 어디서든 착용할 수 있는 심플하고 편안한 디자인을 만나보세요."
+    },
+    {
+      "id":3,
+      "category": "BRAND_SALE",
+      "sale_percent": "~50%",
+      "sale": "단독 할인",
+      "title": "네이비카운티 클리어런스",
+      "script":"편안함 속 자유로움을 담은 핏과 디테일이 돋보이는 네이비 카운티 상품을 할인기간에 만나보세요. 시그니처 제품을 제외한 전 상품의 할인 혜택을 받아보실 수 있습니다. 단독 ~ 50%",
+      "date": "8.1 Tue - 8.15 Tue",
+      "img": "../img/banner_3.jpg",
+      "brand_en": "CORALIQUE",
+      "brand_ko":"코랄리크",
+      "brand_desc":"CORALIQUE(코랄리크)는 감각적인 컬러와 다양한 스타일링으로, 여유로운 해변가의 아름다운 순간을 선사하는 스윔 & 리조트웨어 브랜드입니다."
+    },
+    {
+      "id":4,
+      "category": "BRAND_SALE",
+      "sale_percent": "~10%",
+      "sale": "단독 할인",
+      "title": "자유를 담은 트렌디한 가방",
+      "script":"인기의 이유가 가득 감긴 플로르의 가방들, 트렌디한 실버 컬러들과 매일 함께하기 좋은 미니멀한 가방들을 만나보세요",
+      "date": "8.8 Tue - 8.15 Tue",
+      "img": "../img/banner_4.jpeg",
+      "brand_en": "FLORE",
+      "brand_ko":"플로르",
+      "brand_desc":"조금 다른 시선으로 꽃을 바라봅니다. 구조적인 실루엣과 미니멀한 디자인을 연구합니다."
+    },
+    {
+      "id":5,
+      "category": "BRAND_SALE",
+      "sale_percent": "~60%",
+      "sale": "단독 할인",
+      "title": "리본을 달고",
+      "script":"이번 시즌 돋보였던 리본 디자인 포인트 ,론론의 리본 컬렉션을 소개합니다. 셀럽이 착용한 티셔츠 단독 시즌 오픈 가격으로 제안해요.",
+      "date": "8.9 Wed - 8.15 Tue",
+      "img": "../img/banner_5.jpeg",
+      "brand_en": "RonRon",
+      "brand_ko":"론론",
+      "brand_desc":"론론은 고양이들이 행복감을 느낄 때 내는 갸르릉 소리를 표현한 프랑스어입니다. 당신의 일상에서 건강한 행복을 함께 하기를 기원합니다."
+    }
+  ],
+  "posts": [
+    {
+      "id":0,
+      "header_img": "../img/post_0_1.jpg",
+      "brand_img":"../img/post_brand_0.png",
+      "brand_name":"일상에 녹아드는 옷, 어다울",
+      "brand_desc":"기분 좋은 몽롱함을 간직한 여행 날의 아침에서 영감을 얻었습니다. 오래 함께 할 수 있으면서도 일상에 편하게 녹아드는 옷을 제안하는 어다울을 할인가로 만나세요.",
+      "second_img":"../img/post_0_2.jpg",
+      "third_img":"../img/post_0_3.jpg",
+      "fourth_img":"../img/post_0_4.jpg",
+      "fifth_img":"../img/post_0_5.jpg",
+      "sixth_img":"../img/post_0_6.jpg",
+      "event_item":"../img/post_0_7.jpg"
+      
+  
+    },
+    {
+      "id":1,
+      "header_img": "../img/post_1_1.jpg",
+      "brand_img":"../img/post_brand_1.png",
+      "brand_name":"가을을 사랑한 옷, 레터",
+      "brand_desc":"수분을 머금은 흙, 잘 익은 과실, 떨어지는 낙엽, 비 온 뒤 생긴 웅덩이. 가을에 만날 수 있는 모든 색감을 담아냈습니다. 레터의 23PRE-FALL ‘From the Colors of Nature’ 컬렉션에서 가을을 듬뿍 담은 에센셜 캐주얼 제품들을 만나보세요.",
+      "second_img":"../img/post_1_2.jpg",
+      "third_img":"../img/post_1_3.jpg",
+      "fourth_img":"../img/post_1_4.jpg",
+      "fifth_img":"../img/post_1_5.jpg",
+      "sixth_img":"../img/post_1_6.jpg",
+      "event_item":"../img/post_1_7.jpg"
+    }
+  ]
+
+}
