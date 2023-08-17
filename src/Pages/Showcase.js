@@ -1,26 +1,26 @@
 import React from 'react'
 import { useParams } from 'react-router-dom';
-import postData from 'postData';
+import showCaseData from 'showCaseData';
 import '../styles/Showcase.css'
 
 const Showcase = () => {
   let { id } = useParams();
-  const selectedCase = postData.find((post) => post.id === parseInt(id, 10));
+  const selectedCase = showCaseData.find((data) => data.id === parseInt(id, 10));
 
   if (!selectedCase) {
     return <div>포스트를 찾을 수 없습니다</div>;
   }
   return (
-    <div className='container'>
+    <div className='showcase_container'>
       <div className='showcase'>
         <img src={selectedCase.header_img} />
-        <div className='event desc'>
+        <div className='event showcase_desc'>
           <h3>아름다운 쉼을 위한 <br /> 파자마 <br/> 조스라운지</h3>
           <span>조스라운지가 생각하는 실내복의 본질 '아름다운 쉼'을 담은 에센셜 라인을 소개합니다. 모달과 면 원사를 50:50 비율로 섞고, 저지(Jersey) 짜임으로 완성해 가볍고 부드러운 촉감과 신축성이 공존합니다. 4가지 색상의 파자마와 라운지 셔츠를 '볼륨 1'이라는 이름의 작은 컬렉션으로 제안합니다.</span>
           <p>2023. 8.15 - 8.27</p>
         </div>
         <img src={selectedCase.first_img} />
-        <div className='benefit desc'>
+        <div className='benefit showcase_desc'>
           <h2>BENEFIT</h2>
           <div className='benefit_table'>
             <div className='benefit_row'>

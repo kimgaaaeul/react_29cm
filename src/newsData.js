@@ -8,7 +8,7 @@ export default [
     "thumbnail":"../img/banner_news_0.jpg",
     "category":"NEW PRODUCT",
     "delivery":"무료배송",
-    "sale":"30%",
+    "sale":"~30%",
     "release":"단독발매",
     "title":"따사로운 가을의 사랑스러운 프렌치 룩",
     "desc":"따뜻한 오후 도심에서 여유롭게 가을을 즐기는 이미지를 풀어낸 보카바카의 이번 컬렉션은 파리를 배경으로 하는 영화 아멜리에에서 영감을 받아 사랑스러운 프렌치 룩을 재해석하였습니다.",
@@ -33,6 +33,7 @@ export default [
   {
     "id":2,
     "thumbnail":"../img/banner_news_1.jpg",
+    "feed_thumbnail":"../img/feed_news_1.jpg",
     "category":"NEW PRODUCT",
     "delivery":"무료배송",
     "sale":"~55%",

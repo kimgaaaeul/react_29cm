@@ -1,5 +1,4 @@
-.container {
-  border: 1px solid red;
+.showcase_container {
   overflow: hidden; 
   /* font-size: 0; */
 }
@@ -14,7 +13,7 @@ img {
   height: auto;
   margin: 0;
 }
-.desc {
+.showcase_desc {
   display: flex;
   flex-direction: column;;
   align-items: center;

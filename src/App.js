@@ -2,9 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom'; 
-
-// import ProductAll from './Components/ProductAll';
-// import ProductDetail from './Components/ProductDetail';
 import Header from './Components/Header';
 import Home from 'Pages/Home';
 import Wrap from './Components/Wrap';

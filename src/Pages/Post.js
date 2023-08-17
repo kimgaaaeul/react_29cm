@@ -11,8 +11,8 @@ function Post() {
   }
 
   return (
-    <div className='container'>
-      <div className='post'>
+    <div className='post_container'>
+      <div className='post_inner'>
         <img src={selectedPost.header_img} alt={`포스트 ${selectedPost.id} 이미지`} />
         <div className='brand_info'>
           <img src={selectedPost.brand_img} alt={`포스트 ${selectedPost.id} 브랜드 이미지`} />
